@@ -1,0 +1,246 @@
+body { 
+    background-image: url("full-bloom.png");
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia","Times New Roman",
+        Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+   
+}
+
+html, body {
+    height: 100%;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 10px;
+    border-bottom-style: double;
+    height: 70px;
+    padding: 25px;
+    text-align: left;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font: 20px;
+
+}
+
+.wrapper {
+    align-content: space-between;
+    float: left;
+    padding: 10px;
+
+}
+
+#link1{
+    position: relative;
+    float: left;
+    border: #666666;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+
+}
+
+#link2{
+    position: relative;
+    float: left;
+    border: #666666;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#link3{
+    position: relative;
+    float: right;
+    border: #666666;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#link4{
+    position: relative;
+    float: right;
+    border: #666666;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#myname {background-color:#4aaaa5;
+    color: whitesmoke;
+    width: 300px;
+    text-align: center;
+    margin-left: 320px;
+    margin-right: 400px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    position: static;
+    float: left;
+    border-color: #dddddd; 
+    border-width: 5px;
+    border-style: double;
+    justify-content: right;
+    
+
+}
+
+h1 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#about{
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: flex;
+    float: left;
+    margin: 10px;
+    position: static;
+
+}
+
+#portfolio{
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    justify-content: space-between;
+    display: flex;
+    float: left;
+    margin: 10px;
+    position: static;
+
+}
+
+#contact {
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    justify-content: space-between;
+    display: flex; 
+    float: left;  
+    margin: 10px;
+    position: static;
+    
+}
+
+a {color: #777777;
+   font-size: 16px;
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 10px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 500px;
+    float: center;
+
+}
+
+.container2 {
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 10px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: center;
+
+}
+
+.container3 {
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 10px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: center;
+
+}
+
+#main-bio,
+#bio-image  {
+    float: left;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font: 18px;
+    
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    position: static;
+    border: #666666;
+    border-style: solid;
+    border-width: 2px;
+    justify-content: left;
+   
+}
+
+#main-bio {
+    font-size: 25px;
+}
+
+#content {
+    position: static;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#links {
+    position: relative;
+    padding: 5px;
+    align-content: space-between;
+    border: #666666;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+.Message {
+    box-sizing: content-box;
+    height: 300px;
+    width: 500px;
+}
+.footer {
+    background-color: #666666;
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    height: 70px;
+    padding: 50px;
+    border-top-color: #dddddd;
+    border-top-style: double;
+    border-top-width: 10px;
+    font-size: 8px;
+    text-align: inherit;
+    clear: both;
+
+}
